@@ -1,0 +1,56 @@
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Przelicznik walut</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/converter.css" rel="stylesheet">
+  <link href="css/container.css" rel="stylesheet">
+  <link href="css/form.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <script defer src="js/script.js"></script>
+  <script defer src="js/converter.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <p class="form">
+    <form class="js-form">
+      <fieldset class="form__fieldset">
+        <legend class="form__legend">
+          Przelicznik walut
+        </legend>
+        <p class="current">Aktualny kurs:
+        <p class="current__receive">Euro: 4,67 zł</p>
+        <p class="current__receive">Dolar amerykański: 4,43 zł</p>
+        <p class="current__receive">Funt brytyjski: 5,46 zł</p>
+        </p>
+        <p class="label">
+          <span class="label__text">
+            Chcę wymienić:</span> <input class="form__field js-current" required type="number" min="1" step="any"> PLN
+        </p>
+        </p>
+          <span class="form__labelText">Waluta:</span>
+          <select class="form__field js-currency" name="currency">
+            <option value="eur">Euro</option>
+            <option value="usd">Dolar amerykański</option>
+            <option value="gbp">Funt brytyjski</option>
+          </select>
+        </label>
+        </p>
+      </fieldset>
+      <p>
+        <button class="form__button">Wymieniam</button>
+      </p>
+    </form>
+  </div>
+  <p class="receive">Otrzymasz:
+    <strong class="js-result"> N/A </strong>
+  </p>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2;
+}
+
+.navigation {
+    color: rgb(88, 13, 28);
+    background-color: rgb(197, 216, 151, 0.966);
+    text-align: center;
+}
+
+.current {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  .current__receive {
+    text-align: right;
+    color: rgb(201, 32, 32);
+    font-weight: bold;
+  }
+  
