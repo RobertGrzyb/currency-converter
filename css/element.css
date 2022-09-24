@@ -1,0 +1,8 @@
+.element {
+    width: auto;
+    height: auto;
+    resize: both;
+    overflow: auto;
+    background-image: url(../images/obraz.jpeg);
+    background-size: cover;
+}
