@@ -1,11 +1,10 @@
-let heightElement = document.querySelector ("js-height")
 let form = document.querySelector(".js-form");
 let current = document.querySelector(".js-current");
 let currencyElement = document.querySelector(".js-currency");
 let resultElement = document.querySelector(".js-result");
 
-form.addEventListener("submit"), (event) => {
-  event.preventDefault()};
+form.addEventListener("submit", (event) => {
+  event.preventDefault();
 
   let currentElement = current.value;
   let currency = currencyElement.value;
@@ -25,5 +24,5 @@ form.addEventListener("submit"), (event) => {
       result = currentElement / gbp;
       break;
   }
-  resultElement.innerText = `${result.toFixed(2)} ${currency.toUpperCase()}'
+  resultElement.innerText = `${result.toFixed(2)} ${currency.toUpperCase()}`
 });
