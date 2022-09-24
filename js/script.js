@@ -25,5 +25,5 @@ form.addEventListener("submit", (event) => {
       result = currentElement / gbp;
       break;
   }
-  resultElement.innerText = `${result.toFixed(2)} ${currency}`
+  resultElement.innerText = `${result.toFixed(2)} $${currency.toUpperCase()}'
 });
