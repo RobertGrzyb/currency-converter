@@ -1,4 +1,4 @@
-# Robert Grzyb - kalkulator walut
+# Robert Grzyb - Currency-converter
 
 ## Demo
 
