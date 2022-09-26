@@ -31,7 +31,7 @@ const calculateResult = (amount, currency) => {
 
     const result = calculateResult(amount, currency);
 
-    resultElement.innerHTML = `Wymieniasz: ${amount.toFixed(2)} PLN /
+    resultElement.innerHTML = `Wymieniając: ${amount.toFixed(2)} PLN /
     Otrzymasz: ${result.toFixed(2)} ${currency}`;
   });
   };
