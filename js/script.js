@@ -1,8 +1,8 @@
 
 const calculateResult = (amount, currency) => {
-  const rateEUR = 4.67;
-  const rateUSD = 4.43;
-  const rateGBP = 5.46;
+  const rateEUR = 4.86;
+  const rateUSD = 4.95;
+  const rateGBP = 5.52;
 
   switch (currency) {
     case "EUR":
@@ -26,7 +26,7 @@ const calculateResult = (amount, currency) => {
     const currencyElement = document.querySelector(".js-currency");
     const resultElement = document.querySelector(".js-result");
 
-    const amount = +amountElement.value;
+    const amount = Number(amountElement.value);
     const currency = currencyElement.value;
 
     const result = calculateResult(amount, currency);
