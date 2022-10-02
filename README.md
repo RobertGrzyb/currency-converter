@@ -1,6 +1,6 @@
 # Welcome
 
-Hello, my names is *Robert Grzyb*. Invite look to on my 2nd website project as Frontend developer. This website contains elements **HTML, CSS, JavaScript** and other technologies.
+Hello, my names is *Robert Grzyb*. Invite look to on my 2nd website project as Frontend developer. This website contains elements of **HTML, CSS, JavaScript** and other technologies.
 
 ![website gif](https://github.com/RobertGrzyb/currency-converter/blob/main/images/readme.gif?raw=true)
 
