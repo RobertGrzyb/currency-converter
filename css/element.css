@@ -1,6 +1,6 @@
 .element {
     width: auto;
-    height: auto;
+    height: 100vh;
     resize: both;
     overflow: auto;
     background-image: url(../images/obraz.jpeg);
